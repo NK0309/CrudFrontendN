@@ -23,7 +23,7 @@ export class LoginComponent {
       // this.router.navigate(['/footer'], { replaceUrl: true });
       this.router.navigate(['/customers'], { replaceUrl: true });
     } else {
-      alert('Invalid username or password');
+      alert('Invalid username or ');
     }
   }
   togglePasswordVisibility(): void {
